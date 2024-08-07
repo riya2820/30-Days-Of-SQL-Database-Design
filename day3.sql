@@ -1,4 +1,4 @@
--- Cross Join: customers and orders
+--  Problem: cross join customers and orders
 SELECT c.name, o.id
 FROM Customers c
 CROSS JOIN Orders o;
